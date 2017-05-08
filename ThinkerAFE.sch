@@ -1607,7 +1607,7 @@ F 1 "CONN_01X10" V 9150 1850 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_1x10" H 9050 1850 50  0001 C CNN
 F 3 "" H 9050 1850 50  0000 C CNN
 	1    9050 1850
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Notes Line
 	650  600  650  7200

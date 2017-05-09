@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:OpenBCI
 LIBS:ThinkerHeadset
 LIBS:ads1299
+LIBS:ThinkerAFE-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -199,7 +200,7 @@ F 3 "" H 2050 6150 60  0001 C CNN
 	1    2050 6150
 	1    0    0    -1  
 $EndComp
-Text Label 1300 6200 2    60   ~ 0
+Text Label 1300 6100 2    60   ~ 0
 SRB2
 $Comp
 L GNDA #PWR02
@@ -212,7 +213,7 @@ F 3 "" H 1150 6450 50  0000 C CNN
 	1    1150 6450
 	1    0    0    -1  
 $EndComp
-Text Label 1300 6100 2    60   ~ 0
+Text Label 1300 6200 2    60   ~ 0
 1N
 NoConn ~ 10100 5750
 NoConn ~ 10100 5850
@@ -459,10 +460,6 @@ GNDA
 NoConn ~ 10100 6550
 Text Label 10100 6750 0    60   ~ 0
 RESET
-Text Label 2850 6300 0    60   ~ 0
-GNDA
-Text Label 2850 6200 0    60   ~ 0
-VSSA
 $Comp
 L C C2
 U 1 1 58F6CF7D
@@ -1484,10 +1481,6 @@ Wire Wire Line
 Wire Wire Line
 	4200 5850 3850 5850
 Wire Wire Line
-	2350 6200 2850 6200
-Wire Wire Line
-	2350 6300 2850 6300
-Wire Wire Line
 	1650 6200 1300 6200
 Wire Wire Line
 	1650 6100 1300 6100
@@ -1570,21 +1563,19 @@ Text Label 10400 1450 2    60   ~ 0
 VDD
 Text Label 10400 1650 2    60   ~ 0
 DRDY
-Text Label 10400 1850 2    60   ~ 0
-MISO
 Text Label 10400 1750 2    60   ~ 0
+MISO
+Text Label 10400 1850 2    60   ~ 0
 SCLK
-Text Label 10400 2050 2    60   ~ 0
-MOSI
 Text Label 10400 2150 2    60   ~ 0
+MOSI
+Text Label 10400 1950 2    60   ~ 0
 CS
 Text Label 10400 1550 2    60   ~ 0
 GNDA
 Text Label 10400 2250 2    60   ~ 0
 VDD
 Text Label 10400 2350 2    60   ~ 0
-GNDA
-Text Label 10400 1950 2    60   ~ 0
 GNDA
 $Comp
 L CONN_01X10 P2
@@ -1630,4 +1621,8 @@ Wire Notes Line
 	6400 8950 10600 8950
 Wire Notes Line
 	10600 8950 10600 3150
+Text Label 10400 2050 2    60   ~ 0
+RESET
+NoConn ~ 2350 6200
+NoConn ~ 2350 6300
 $EndSCHEMATC

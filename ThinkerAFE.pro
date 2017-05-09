@@ -1,4 +1,4 @@
-update=Monday, May 08, 2017 'PMt' 03:32:50 PM
+update=Monday, May 08, 2017 'PMt' 05:25:26 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,6 @@ LibName29=valves
 LibName30=/Users/aj/kicad/libraries/kicad-openbci/OpenBCI
 LibName31=/Users/aj/pushtheworld/ThinkerHeadset/ThinkerHeadset
 LibName32=/Users/aj/kicad/libraries/kicad-OpenHardwareExG/rev1/ads1299
+LibName33=/Users/andrewkeller/kicad/libraries/OpenBCI_KiCad_library_files/OpenBCI
+LibName34=/Users/andrewkeller/ptw/ThinkerHeadset/ThinkerHeadset
+LibName35=/Users/andrewkeller/kicad/libraries/kicad-OpenHardwareExG/ads1299

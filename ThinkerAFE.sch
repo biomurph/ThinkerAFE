@@ -31,7 +31,6 @@ LIBS:valves
 LIBS:OpenBCI
 LIBS:ThinkerHeadset
 LIBS:ads1299
-LIBS:ThinkerAFE-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693

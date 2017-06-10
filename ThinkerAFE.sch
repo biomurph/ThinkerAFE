@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "Thinker Analog Front End"
 Date ""
-Rev "v0.0.1"
+Rev "v0.1.0"
 Comp "Push The World LLC"
 Comment1 "AJ Keller"
 Comment2 ""
@@ -86,14 +86,6 @@ Text Label 7150 6950 2    60   ~ 0
 IN1N
 Text Label 7950 7500 3    60   ~ 0
 INSRB2
-NoConn ~ 7150 7050
-NoConn ~ 7150 6850
-NoConn ~ 7150 6650
-NoConn ~ 7150 6450
-NoConn ~ 7150 6250
-NoConn ~ 7150 6050
-NoConn ~ 7150 5850
-NoConn ~ 7150 5650
 NoConn ~ 7850 7500
 Text Label 3450 4950 0    60   ~ 0
 BIAS_DRV
@@ -867,7 +859,6 @@ Text Notes 4550 4450 0    60   ~ 0
 HARDWARE FILTERS
 Text Notes 8250 3600 0    60   ~ 0
 ANALOG TO DIGITAL ADS1299
-NoConn ~ 10100 6250
 NoConn ~ 10100 6650
 NoConn ~ 8150 5100
 Text Label 9500 4400 2    60   ~ 0
@@ -1625,4 +1616,22 @@ Text Label 10400 2050 2    60   ~ 0
 RESET
 NoConn ~ 2350 6200
 NoConn ~ 2350 6300
+Text Label 10100 6250 0    60   ~ 0
+GNDA
+Text Label 7150 5650 2    60   ~ 0
+VDDA
+Text Label 7150 5850 2    60   ~ 0
+VDDA
+Text Label 7150 6050 2    60   ~ 0
+VDDA
+Text Label 7150 6250 2    60   ~ 0
+VDDA
+Text Label 7150 6450 2    60   ~ 0
+VDDA
+Text Label 7150 6650 2    60   ~ 0
+VDDA
+Text Label 7150 6850 2    60   ~ 0
+VDDA
+Text Label 7150 7050 2    60   ~ 0
+VDDA
 $EndSCHEMATC

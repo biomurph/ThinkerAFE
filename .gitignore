@@ -1,4 +1,4 @@
 .DS_Store
 *.bak
 *-cache.lib
-.kicad_pcb-bak
+*.kicad_pcb-bak

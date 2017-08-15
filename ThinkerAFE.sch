@@ -28,9 +28,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:ThinkerAFE
 LIBS:OpenBCI
 LIBS:ThinkerHeadset
-LIBS:ads1299
 LIBS:ThinkerAFE-cache
 EELAYER 25 0
 EELAYER END
@@ -39,24 +39,13 @@ encoding utf-8
 Sheet 1 1
 Title "Thinker Analog Front End"
 Date ""
-Rev "v0.2.0"
+Rev "v0.3.0"
 Comp "Push The World LLC"
 Comment1 "AJ Keller"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L ADS1299 U6
-U 1 1 58ABA5E3
-P 8600 6300
-F 0 "U6" H 8600 6100 60  0000 C CNN
-F 1 "ADS1299" H 8600 6500 60  0000 C CNN
-F 2 "Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm" H 8600 6300 60  0001 C CNN
-F 3 "" H 8600 6300 60  0001 C CNN
-	1    8600 6300
-	1    0    0    -1  
-$EndComp
 $Comp
 L TPD4E1B06 U7
 U 1 1 58ABB96D
@@ -1626,4 +1615,15 @@ NoConn ~ 7150 6450
 NoConn ~ 7150 6650
 NoConn ~ 7150 6850
 NoConn ~ 7150 7050
+$Comp
+L ADS1299 U?
+U 1 1 59931ADE
+P 8600 6300
+F 0 "U?" H 8600 6100 60  0000 C CNN
+F 1 "ADS1299" H 8600 6500 60  0000 C CNN
+F 2 "" H 8600 6300 60  0001 C CNN
+F 3 "" H 8600 6300 60  0001 C CNN
+	1    8600 6300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

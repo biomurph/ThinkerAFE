@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:ThinkerAFE
 LIBS:OpenBCI
 LIBS:ThinkerHeadset
+LIBS:ThinkerAFE-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1629,4 +1630,6 @@ Text Notes 10650 6650 0    60   ~ 0
 START NC\nCLK NC
 Text Notes 6850 5000 0    60   ~ 0
 RESERVED pin\nnot tied to GNDA
+Text Notes 10950 7050 0    60   ~ 0
+Floating START is not an issue for communication\nCLK has no where to go and off, so NC is OK
 $EndSCHEMATC

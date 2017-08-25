@@ -31,7 +31,6 @@ LIBS:valves
 LIBS:ThinkerAFE
 LIBS:OpenBCI
 LIBS:ThinkerHeadset
-LIBS:ThinkerAFE-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1626,4 +1625,8 @@ F 3 "" H 8600 6300 60  0001 C CNN
 	1    8600 6300
 	1    0    0    -1  
 $EndComp
+Text Notes 10650 6650 0    60   ~ 0
+START NC\nCLK NC
+Text Notes 6850 5000 0    60   ~ 0
+RESERVED pin\nnot tied to GNDA
 $EndSCHEMATC

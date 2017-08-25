@@ -1,4 +1,4 @@
-update=Tuesday, August 15, 2017 'AMt' 11:26:51 AM
+update=Wednesday, April 26, 2017 'AMt' 10:16:49 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=/Users/andrewkeller/Downloads/OpenHardwareExG/kicad-files/rev1;../OpenBCI_Wifi_Shield/Wifi_Shielf_KiCad_Files
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,6 +58,19 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=LibraryFiles/ThinkerAFE
-LibName31=LibraryFiles/OpenBCI
-LibName32=LibraryFiles/ThinkerHeadset
+LibName30=ads1299
+LibName31=esd
+LibName32=isolators
+LibName33=regulators
+LibName34=rs485
+LibName35=sam3x8e
+LibName36=smt-crystals
+LibName37=voltage-translators
+LibName38=ThinkerHeadset
+LibName39=/Users/andrewkeller/Downloads/ESP32-kiCAD-Footprints-master/ESP32-Footprints/ESP32-footprints-Shem-Lib
+LibName40=OpenBCI_Wifi
+LibName41=/Users/andrewkeller/openbci/Ganglion_Hardware_Design_Files/Ganglion_KiCad_Files/OpenBCI_KiCad_library_files/OpenBCI
+LibName42=/Users/andrewkeller/kicad/libraries/kicad-ESP8266/ESP8266
+LibName43=/Users/andrewkeller/Downloads/kicad-library-master/library/ftdi
+LibName44=/Users/andrewkeller/Downloads/kicad-library-master/library/microchip
+LibName45=/Users/andrewkeller/kicad/libraries/ESP32-Footprints/ESP32-footprints-Shem-Lib

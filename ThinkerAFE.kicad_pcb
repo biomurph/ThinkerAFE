@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5)
+(kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
     (links 149)
     (no_connects 0)
-    (area 32.525499 37.483579 60.705201 70.209881)
+    (area 32.2881 31.242479 79.049569 71.688013)
     (thickness 1.6)
-    (drawings 28)
+    (drawings 29)
     (tracks 446)
     (zones 0)
     (modules 57)
@@ -2304,6 +2304,9 @@
     )
   )
 
+  (gr_text "OMG\nCheck the silk pin names \nagainst the net names \non the pins and the traces!" (at 47.1297 76.56068) (layer Dwgs.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text 1N (at 37.6555 39.42588 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
